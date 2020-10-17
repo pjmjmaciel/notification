@@ -1,0 +1,23 @@
+{
+    "name": "pjmjmaciel/notification",
+    "description": "this is a library that user composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Maciel",
+            "email": "pjmj.maciel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.7"
+    },
+    "config": {"vendor-dir": "lib_ext"
+        },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
